@@ -1,0 +1,13 @@
+.header {
+    padding:5px;
+    text-align: center;
+    background:blue;
+    color: white;
+    font-size: 20px;
+  }
+  #singledayforecast{
+    border: 2px solid black;
+  }
+  #parent_div{
+    display: flex;
+  }
