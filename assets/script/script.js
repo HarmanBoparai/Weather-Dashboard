@@ -1,6 +1,9 @@
+//Variables
 let searchbtn=document.getElementById("search_button")
 let inputbox=document.getElementById("city_input")
 let singledayforecast=document.getElementById("singledayforecast")
+
+// function for fetch data from the openweathermap
 function fetchCityData(event){
     event.preventDefault();
     let cityName=inputbox.value;
@@ -24,11 +27,10 @@ function fetchCityData(event){
         humidity_p.innerHTML=humidity
         singledayforecast.append(cityname,temp_p,wind_p,humidity_p)
         generateForecast(cityname,latitude,longitude)
-
-        
-
     })
 }
+
+// function for generating the forecast
 function generateForecast(cityname,lat,lon){
 let forecastvalue=fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=a813d1d337bb33fb9ed8d531e77212c8`)
                   .then(res=>res.json())
