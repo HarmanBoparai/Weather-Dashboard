@@ -17,7 +17,8 @@ SO THAT I can plan a trip accordingly
 * THEN I am again presented with current and future conditions for that city
 
 ## Usage
-
+link to the repo
+https://harmanboparai.github.io/Weather-Dashboard/
 It provides the current and future weather conditions for different cities.
 
 ## Screenshot of the repo
