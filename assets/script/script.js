@@ -27,7 +27,9 @@ function fetchCityData(cityName) {
         let temp = data.main.temp
         let wind = data.wind.speed
         let humidity = data.main.humidity
-
+        const h2= document.createElement("h2");
+        const textNode = document.createTextNode("Today Weather Forecast");
+        h2.appendChild(textNode); 
         let h1El = document.createElement("h1")
         h1El.innerHTML = cityname
         let temp_p = document.createElement("p")
@@ -36,8 +38,9 @@ function fetchCityData(cityName) {
         wind_p.innerHTML = wind
         let humidity_p = document.createElement("p")
         humidity_p.innerHTML = humidity
+       
         
-        singledayforecast.append(h1El, temp_p, wind_p, humidity_p)
+        singledayforecast.append(h2,h1El, temp_p, wind_p, humidity_p)
         generateForecast(cityname, latitude, longitude)
     })
 }
