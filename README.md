@@ -22,4 +22,5 @@ https://harmanboparai.github.io/Weather-Dashboard/
 It provides the current and future weather conditions for different cities.
 
 ## Screenshot of the repo
-![repo screenshot-weather dashboard](https://user-images.githubusercontent.com/112586779/192693274-41b9559f-77b7-439e-bf22-2452cb8f9d88.png)
+
+![repo screenshot-weather dashboard](https://user-images.githubusercontent.com/112586779/192914685-f308bf1b-7be8-448c-ad83-d0d0f0daaebb.png)
